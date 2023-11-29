@@ -8,8 +8,6 @@ Ce projet me permet d'explorer les différentes animations possibles avec Framer
   ![Next.js](https://img.shields.io/badge/Next.js%20-%23000000.svg?logo=next.js&logoColor=%23FFFFFF)  
   Application développée avec Next.js, offrant un rendu côté serveur, la génération de pages statiques, et une gestion automatique des routes pour une expérience React optimisée.
 
-
-
 - **Tailwind CSS**  
   ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS%20-%2338B2AC.svg?logo=tailwind-css&logoColor=white)  
   Le stylisme est simplifié grâce à Tailwind CSS, offrant une personnalisation rapide et harmonieuse.
