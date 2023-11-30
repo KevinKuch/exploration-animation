@@ -17,7 +17,7 @@ export default function Index() {
             scrollTrigger: {
                 trigger: document.documentElement,
                 scrub: true,
-                start: "top top",
+                start: "top",
                 end: "+=500px",
             },
         })
@@ -31,7 +31,7 @@ export default function Index() {
         <div className={styles.homeHeader}>
             <div className={styles.backgroundImage} ref={background}>
                 <Image 
-                    src={'/images/background.jpeg'}
+                    src={'/images/background-unsplash.jpg'}
                     fill={true}
                     alt="background image"
                     priority={true}
@@ -40,13 +40,13 @@ export default function Index() {
             <div className={styles.intro}>
                     <div ref={introImage} data-scroll data-scroll-speed="0.3" className={styles.introImage}>
                         <Image
-                            src={'/images/intro.png'}
+                            src={'/images/profile-unsplash.jpg'}
                             alt="intro image"
                             fill={true} 
                             priority={true}
                         />
                     </div>
-                    <h1 data-scroll data-scroll-speed="0.7">SMOOTH SCROLL</h1>
+                    <h1 data-scroll data-scroll-speed="0.7">FestivaForge</h1>
              </div>
         </div>
     )

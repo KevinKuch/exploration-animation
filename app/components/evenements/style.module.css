@@ -1,0 +1,64 @@
+.evenements {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+    color: #fff;
+    padding: 10%;
+}
+
+.evenementsDescription {
+    display: flex;
+    height: 700px;
+    gap: 5%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.imageContainer {
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+.imageContainer img {
+    object-fit: cover;
+}
+
+.column {
+    display: flex;
+    width: 25%;
+    font-size: 1.5vw;
+}
+
+.column:last-of-type {
+    font-size: 1.3vw;
+    align-items: center;
+}
+
+.evenementsList {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.evenementEl {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #fff;
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.evenementEl:last-of-type {
+    border-bottom: 1px solid #fff;
+}
+
+.evenementEl p {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+    
+}
