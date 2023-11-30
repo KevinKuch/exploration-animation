@@ -32,7 +32,7 @@ export default function Index() {
         gsap.registerPlugin(ScrollTrigger); // Enregistre le plugin ScrollTrigger de GSAP
         ScrollTrigger.create({
             trigger: imageContainer.current,
-            start:"-=100px", // déclenche l'animation 10px avant le trigger. Haut du viewport
+            start:"-=100px", // déclenche l'animation Xpx avant le trigger. Haut du viewport
             end: document.body.offsetHeight,
             pin: true // pin the trigger element while active
         })
