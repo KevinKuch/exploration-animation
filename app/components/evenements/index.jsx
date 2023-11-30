@@ -59,7 +59,7 @@ export default function Index() {
                 {
                     events.map((event, index) => {
                         return <div onMouseOver={() => {setHoverEvents(index)}} className={styles.evenementEl} key={`p_${index}`}>
-                            <p>{event.title}</p>
+                            <p className={styles.eventTitre}>{event.title}</p>
                         </div>
                     })
                 }

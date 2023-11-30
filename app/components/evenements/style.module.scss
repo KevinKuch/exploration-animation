@@ -55,10 +55,15 @@
     font-weight: bold;
     cursor: pointer;
 
-    p {
+    .eventTitre {
         margin: 0;
         margin-top: 40px;
         margin-bottom: 20px;
+
+        &:hover {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(-20px) scale(1.1);
+        }
     }
 
     &:last-of-type {
