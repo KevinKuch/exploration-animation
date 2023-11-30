@@ -10,10 +10,10 @@
     height: 140vh;
     position: absolute;
     filter: brightness(60%);
-}
 
-.backgroundImage img{
-    object-fit: cover;
+    img {
+      object-fit: cover;
+    }
 }
 
 .intro{
@@ -21,10 +21,9 @@
     justify-content: center;
     position: relative;
     margin-top: 35vh;
-}
 
-.intro h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 7vw;
     z-index: 3;
@@ -33,7 +32,9 @@
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     animation: bounce 1s ease infinite;
+    }
 }
+
 
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -52,9 +53,9 @@
     width: 350px;
     height: 475px;
     position: absolute;
-}
 
-.introImage img{
-    object-fit: cover;
-    object-position: top;
+    img {
+      object-fit: cover;
+      object-position: top;
+    }
 }

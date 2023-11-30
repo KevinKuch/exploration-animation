@@ -1,7 +1,7 @@
 'use client'; // Ceci permet d'appliquer le mode du module Client
 
 import { useState, useEffect } from 'react'
-import styles from './page.module.css'
+import styles from './page.module.scss'
 
 import Intro from './components/intro/index'
 import Description from './components/description/index'
