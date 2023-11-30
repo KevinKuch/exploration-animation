@@ -48,10 +48,10 @@ export default function Index() {
                         alt={events[hoverEvents].title}
                     />
                 </div>
-                <div className={styles.column}>
+                <div data-scroll data-scroll-speed="0.3" className={styles.column}>
                     <p>FestivaForge excelle dans la planification stratégique d'événements, offrant des festivals immersifs où chaque détail est méticuleusement façonné pour captiver vos participants.</p>
                 </div>
-                <div className={styles.column}>
+                <div data-scroll data-scroll-speed="0.2" className={styles.column}>
                     <p>Avec FestivaForge, plongez dans l'univers des festivals exceptionnels, où la créativité fusionne avec une exécution impeccable, créant ainsi des moments magiques et des souvenirs durables.</p>
                 </div>
             </div>

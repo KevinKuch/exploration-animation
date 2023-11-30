@@ -17,12 +17,12 @@ export default function Index() {
             scrollTrigger: {
                 trigger: document.documentElement,
                 scrub: true,
-                start: "top",
-                end: "+=500px",
+                start: "+=350px",
+                end: "+=1500px",
             },
         })
 
-        timeline
+        timeline // Variable timeline qui contient les animations
             .from(background.current, {clipPath: `inset(15%)`})
             .to(introImage.current, {height: "200px"}, 0)
     }, [])

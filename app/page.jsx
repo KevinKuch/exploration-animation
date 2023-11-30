@@ -6,6 +6,7 @@ import styles from './page.module.scss'
 import Intro from './components/intro/index'
 import Description from './components/description/index'
 import Evenements from './components/evenements/index'
+import Hero from './components/hero/index'
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <Hero />
       <Intro />
       <Description />
       <Evenements />
