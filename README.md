@@ -1,6 +1,6 @@
 # Exploration des animations avec Framer Motion et GSAP
 
-Ce projet me permet d'explorer les différentes animations possibles avec Framer Motion et GSAP (GreenSock Animation Platform). Créé avec React et stylisé avec Tailwind CSS, cette initiative représente une escapade personnelle dans le monde fascinant des animations en ligne sur un site Web.
+Ce projet me permet d'explorer les différentes animations possibles avec Framer Motion et GSAP (GreenSock Animation Platform). Créé avec React et stylisé avec Sass, cette initiative représente une escapade personnelle dans le monde fascinant des animations en ligne sur un site Web.
 
 ## Technologies Utilisées et Librairies Utilisées
 
