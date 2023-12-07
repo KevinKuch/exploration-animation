@@ -33,8 +33,9 @@ export default function Index() {
         ScrollTrigger.create({
             trigger: imageContainer.current,
             start:"-=100px", // déclenche l'animation Xpx avant le trigger. Haut du viewport
-            end: document.body.offsetHeight,
-            pin: true // pin the trigger element while active
+            end: "500px", 
+            pin: true, // pin the trigger element while active
+            // markers: true,
         })
     }, [])
 
